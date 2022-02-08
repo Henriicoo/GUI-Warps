@@ -1,0 +1,18 @@
+name: GUI-Warps
+version: '${project.version}'
+main: com.henriquenapimo1.guiwarps.GUIWarps
+api-version: 1.8
+author: HenriqueNapimo1
+depend:
+  - Essentials
+permissions:
+  guiwarps.admin:
+    default: false
+commands:
+  warp:
+    description: Mostra o menu de warps ou vai até uma warp
+    aliases:
+      - warps
+  gwarp:
+    description: Comando de administrador das warps
+    permission: guiwarps.admin
